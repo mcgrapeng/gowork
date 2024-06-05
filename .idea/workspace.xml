@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="394610f3-a237-4c74-8c02-56534cadbf86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gotest/1_base/example/split.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gotest/1_base/example/split1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gotest/1_base/example/split1_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gotest/1_base/example/split_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gotest/1_base/exec.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golib/8_context/exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/golib/8_context/exec.go" afterDir="false" />
-    </list>
+    <list default="true" id="394610f3-a237-4c74-8c02-56534cadbf86" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
