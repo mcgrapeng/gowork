@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="394610f3-a237-4c74-8c02-56534cadbf86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gotest/1_base/example/split.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/1_base/example/split1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/1_base/example/split1_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/1_base/example/split_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/1_base/exec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/golib/8_context/exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/golib/8_context/exec.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2gRg01Ofqt77sANT6uaAd9uvh5d" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/zhangpeng/workspace/gowork/gotest/1_base/example",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "go.sdk"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gotest/1_base/example" />
+      <recent name="$PROJECT_DIR$/gotest/1_base" />
+      <recent name="$PROJECT_DIR$/gotest" />
+      <recent name="$PROJECT_DIR$/goext" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/goext/1_fmt" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestSplit in gotest/1_base/example">
+    <configuration name="go build gobase" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gowork" />
+      <working_directory value="$PROJECT_DIR$/gobase" />
+      <kind value="PACKAGE" />
+      <package value="gobase" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/gobase/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build goext" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gowork" />
+      <working_directory value="$PROJECT_DIR$/goext" />
+      <kind value="PACKAGE" />
+      <package value="goext" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/goext/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build golib" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gowork" />
+      <working_directory value="$PROJECT_DIR$/golib" />
+      <kind value="PACKAGE" />
+      <package value="golib" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/golib/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gobase" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="gowork" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/gobase" />
+      <filePath value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$/gobase/pkg" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gobase" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="gowork" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/gobase" />
+      <filePath value="$PROJECT_DIR$/gobase/forloop.go" />
+      <output_directory value="$PROJECT_DIR$/gobase" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMoreSplit in gobase/17_test/split" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gowork" />
+      <working_directory value="$PROJECT_DIR$/gobase/17_test/split" />
+      <root_directory value="$PROJECT_DIR$/gobase" />
+      <kind value="PACKAGE" />
+      <package value="gobase/17_test/split" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestMoreSplit\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSplit in gotest/1_base/example" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gowork" />
+      <working_directory value="$PROJECT_DIR$/gotest/1_base/example" />
+      <root_directory value="$PROJECT_DIR$/gotest" />
+      <kind value="PACKAGE" />
+      <package value="gotest/1_base/example" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSplit\E$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.gobase" />
+      <item itemvalue="Go Build.go build goext" />
+      <item itemvalue="Go Build.go build golib" />
+      <item itemvalue="Go Build.go build gobase" />
+      <item itemvalue="Go Test.TestSplit in gotest/1_base/example" />
+      <item itemvalue="Go Test.TestMoreSplit in gobase/17_test/split" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestSplit in gotest/1_base/example" />
+        <item itemvalue="Go Build.go build gobase" />
+        <item itemvalue="Go Build.go build golib" />
+        <item itemvalue="Go Build.go build goext" />
+        <item itemvalue="Go Test.TestMoreSplit in gobase/17_test/split" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/gobase/10_package/exec.go</url>
+          <line>437</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/gobase/11_interface/exec.go</url>
+          <line>289</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/gobase/16_test/split/split.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/gobase/3_process_control/exec.go</url>
+          <line>382</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/gobase/3_process_control/exec.go</url>
+          <line>494</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/gobase/11_interface/exec.go</url>
+          <line>490</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/gobase/11_interface/exec.go</url>
+          <line>196</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/gobase/11_interface/exec.go</url>
+          <line>494</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/golib/5_file/exec.go</url>
+          <line>35</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/golib/5_file/exec.go</url>
+          <line>33</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
