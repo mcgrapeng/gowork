@@ -1,6 +1,6 @@
 package main
 
-import goroutineZhang "gobase/14_goroutine"
+import mapZhang "gobase/6_map"
 
 func main() {
 	//variable_constant.Exec()
@@ -8,7 +8,7 @@ func main() {
 	//process_control.Exec()
 	//arrayZhang.Exec()
 	//sliceZhang.Exec()
-	//mapZhang.Exec()
+	mapZhang.Exec()
 	//funcZhang.Exec()
 	//pointerZhang.Exec()
 	//structZhang.Exec()
@@ -16,7 +16,7 @@ func main() {
 	//interfaceZhang.Exec()
 	//errorZhang.Exec()
 	//reflectZhang.Exec()
-	goroutineZhang.Exec()
+	//goroutineZhang.Exec()
 	//socketZhang.Exec()
 	//testZhang.Exec()
 	//genericsZhang.Exec()

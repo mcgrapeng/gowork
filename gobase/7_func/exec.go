@@ -398,6 +398,16 @@ func add3(s string) (func(int, int) int, error) {
 	}
 }
 
+func add4(s string) (int, error) {
+	switch s {
+	case "A":
+		return 0, nil
+	default:
+		err := errors.New("无法识别")
+		return 1, err
+	}
+}
+
 func adder() func(int) int {
 	var x int
 	return func(y int) int {

@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="394610f3-a237-4c74-8c02-56534cadbf86" name="Changes" comment="" />
+    <list default="true" id="394610f3-a237-4c74-8c02-56534cadbf86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gobase/0_前置/exec.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gobase/18_examples/exec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gobase/18_examples/exec.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gobase/18_examples/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gobase/18_examples/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/godb/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golib/7_http/example/ZhangpClient.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golib/7_http/example/ZhangpServer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goweb/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goweb/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/github.com/andybalholm/brotli@v1.1.0/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/github.com/klauspost/compress@v1.17.7/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/github.com/stretchr/testify@v1.8.1/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/github.com/valyala/fasthttp@v1.54.0/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/go.uber.org/goleak@v1.3.0/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/go.uber.org/multierr@v1.10.0/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/go.uber.org/zap@v1.27.0/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/golang.org/x/sys@v0.18.0/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gobase/10_package/exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/gobase/10_package/exec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gobase/16_test/exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/gobase/16_test/exec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gobase/1_variable_constant/exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/gobase/1_variable_constant/exec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gobase/6_map/exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/gobase/6_map/exec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gobase/7_func/exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/gobase/7_func/exec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gobase/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gobase/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/golib/7_net/exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/golib/7_http/exec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/golib/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/golib/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotest/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gotest/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sys/@v/list" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sys/@v/list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/mod/cache/download/gopkg.in/yaml.v3/@v/list" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/mod/cache/download/gopkg.in/yaml.v3/@v/list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/sumdb/sum.golang.org/latest" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/sumdb/sum.golang.org/latest" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +52,9 @@
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="Project Files" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,14 +88,15 @@
     "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/zhangpeng/workspace/gowork/gotest/1_base/example",
+    "last_opened_file_path": "/Users/zhangpeng/workspace/gowork/goweb",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "go.sdk"
+    "settings.editor.selected.configurable": "com.goide.configuration.GoLibrariesConfigurableProvider"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/goweb" />
       <recent name="$PROJECT_DIR$/gotest/1_base/example" />
       <recent name="$PROJECT_DIR$/gotest/1_base" />
       <recent name="$PROJECT_DIR$/gotest" />
@@ -70,7 +106,7 @@
       <recent name="$PROJECT_DIR$/goext/1_fmt" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSplit in gotest/1_base/example">
+  <component name="RunManager" selected="Go Build.go build gobase">
     <configuration name="go build gobase" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gowork" />
       <working_directory value="$PROJECT_DIR$/gobase" />
@@ -98,6 +134,15 @@
       <filePath value="$PROJECT_DIR$/golib/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build gotest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gowork" />
+      <working_directory value="$PROJECT_DIR$/gotest" />
+      <kind value="PACKAGE" />
+      <package value="gotest" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/gotest/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="gobase" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="gowork" />
       <working_directory value="$PROJECT_DIR$" />
@@ -116,18 +161,6 @@
       <output_directory value="$PROJECT_DIR$/gobase" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMoreSplit in gobase/17_test/split" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="gowork" />
-      <working_directory value="$PROJECT_DIR$/gobase/17_test/split" />
-      <root_directory value="$PROJECT_DIR$/gobase" />
-      <kind value="PACKAGE" />
-      <package value="gobase/17_test/split" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestMoreSplit\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestSplit in gotest/1_base/example" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gowork" />
       <working_directory value="$PROJECT_DIR$/gotest/1_base/example" />
@@ -144,17 +177,17 @@
       <item itemvalue="Go Build.gobase" />
       <item itemvalue="Go Build.go build goext" />
       <item itemvalue="Go Build.go build golib" />
+      <item itemvalue="Go Build.go build gotest" />
       <item itemvalue="Go Build.go build gobase" />
       <item itemvalue="Go Test.TestSplit in gotest/1_base/example" />
-      <item itemvalue="Go Test.TestMoreSplit in gobase/17_test/split" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestSplit in gotest/1_base/example" />
         <item itemvalue="Go Build.go build gobase" />
         <item itemvalue="Go Build.go build golib" />
+        <item itemvalue="Go Build.go build gotest" />
+        <item itemvalue="Go Test.TestSplit in gotest/1_base/example" />
         <item itemvalue="Go Build.go build goext" />
-        <item itemvalue="Go Test.TestMoreSplit in gobase/17_test/split" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +206,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/gobase/10_package/exec.go</url>
-          <line>437</line>
+          <line>476</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">

@@ -19,7 +19,13 @@ func Exec() {
 			var 变量名  map[KeyType]ValueType
 
 		(3).初始化：
-			1️⃣map类型的变量默认初始值为nil，需要使用make()函数来分配内存。
+			1️⃣默认值
+				声明map类型的变量时，默认初始值为nil
+
+					举个例子：
+						var m map[string]string
+
+			2️⃣使用make()函数初始化。
 				变量名 := make(map[KeyType]ValueType, [cap])
 		
 					举个例子：
@@ -35,7 +41,7 @@ func Exec() {
 						100
 						type of a:map[string]int
 			
-			2️⃣map也支持在声明的时候填充元素。
+			3️⃣声明时通过{}初始化。
 				变量名:= map[KeyType]ValueType{"key1":"value1" , .....}
 
 					举个例子：
@@ -110,6 +116,9 @@ func Exec() {
 
 	fmt.Println("============================================================以下是例子=========================================================")
 
+	var m11 map[string]string
+	m11["haha"] = "11"
+	fmt.Println(m11)
 	/**
 	map定义语法：map[KeyType]ValueType
 	创建map：make(map[KeyType]ValueType, [cap]) 其中cap表示map的容量，该参数虽然不是必须的，但是我们应该在初始化map的时候就为其指定一个合适的容量。

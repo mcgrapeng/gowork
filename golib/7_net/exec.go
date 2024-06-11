@@ -1,5 +1,0 @@
-package netZhang
-
-func Exec() {
-	
-}

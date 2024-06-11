@@ -26,10 +26,10 @@ func Exec() {
 
 		(3).可见性：
 			在同一个包内部声明的标识符（如变量、常量、类型、函数等）都位于同一个命名空间下，在不同的包内部声明的标识符就属于不同的命名空间。
-			想要在包的外部使用包内部的标识符就需要添加包名前缀，例如fmt.Println("Hello world!")，就是指调用fmt包中的Println函数。
+			想要在包的外部使用其它包的标识符就需要添加包名前缀，例如fmt.Println("Hello world!")，就是指调用fmt包中的Println函数。
 
 			如果想让一个包中的标识符（如变量、常量、类型、函数等）能被外部的包使用，那么标识符必须是对外可见的（public）。
-			在Go语言中是通过标识符的首字母大/小写来控制标识符的对外可见（public）/不可见（private）的。在一个包内部只有首字母大写的标识符才是对外可见的。
+			在Go语言中，只有首字母为大写的标识符才是导出的（Exported），才能对包外的代码可见；如果首字母是小写的，那么就说明这个标识符仅限于在声明它的包内可见。。
 
 			举个例子：
 				package demo
@@ -59,7 +59,7 @@ func Exec() {
 				// sayHi 打招呼的函数
 				// 首字母小写，对外不可见(只能在当前包内使用)
 				func sayHi() {
-					var myName = "七米" // 函数局部变量，只能在当前函数内使用
+					var myName = "zhangp" // 函数局部变量，只能在当前函数内使用
 					fmt.Println(myName)
 				}
 		
@@ -84,6 +84,8 @@ func Exec() {
 					import "fmt"
 					import "net/http"
 					import "os"
+
+					fmt.Println("Hello world!")
 					
 					或：
 					import (
@@ -91,6 +93,13 @@ func Exec() {
 						"net/http"
 						"os"
 					)
+				
+					fmt.Println("Hello world!")
+
+				注意⚠️：
+					1.import “fmt” 一行中“fmt”代表的是包的导入路径，它表示的是标准库下的fmt目录，整个import声明语句的含义是导入标准库fmt目录下的包；
+					2.fmt.Println函数调用一行中的“fmt”代表的则是包名。
+					通常导入路径的最后一个【分段名】与【包名】是相同的，这也很容易让人误解import声明语句中的“fmt”指的是包名，其实并不是这样的。
 
 			2️⃣包名：
 				当引入的多个包中存在相同的包名或者想自行为某个引入的包设置一个新包名时，都需要通过importname指定一个在当前文件中使用的新包名。
@@ -109,7 +118,10 @@ func Exec() {
 					import _ "github.com/go-sql-driver/mysql"
 
 			4️⃣注意：
-				Go语言中不允许引入包却不在代码中使用这个包的内容，如果引入了未使用的包则会触发编译错误。
+				1.Go语言中不允许引入包却不在代码中使用这个包的内容，如果引入了未使用的包则会触发编译错误。
+
+				2.在Go语言中，main包是不可以像标准库fmt包那样被导入（Import）的，如果导入main包，
+				在代码编译阶段你会收到一个Go编译器错误：import “xx/main” is a program, not an importable package。
 
 		(5).init函数：
 			在每一个Go源文件中，都可以定义任意个如下格式的特殊函数。
@@ -124,14 +136,41 @@ func Exec() {
 
 	fmt.Println(`
 	2.【go module】
-		(1).背景：
+		(1).定义：
 			在Go语言的早期版本中，我们编写Go项目代码时所依赖的所有第三方包都需要保存在GOPATH这个目录下面。
 			Go module 会把下载到本地的依赖包会以类似下面的形式保存在 $GOPATH/pkg/mod目录下，
 			每个依赖包都会带有版本号进行区分，这样就允许在本地存在同一个包的多个不同版本。
 			这样的依赖管理方式存在一个致命的缺陷，那就是不支持版本管理，同一个依赖包只能存在一个版本的代码。
 			可是我们本地的多个项目完全可能分别依赖同一个第三方包的不同版本。
 
-		(2).命令：
+
+		(2).背景
+			GOPATH：
+				GOPATH 是 Go语言中使用的一个环境变量，它使用绝对路径提供项目的工作目录。
+				Go语言所依赖的所有的第三方库都放在 GOPATH 这个目录下面，
+				这就导致了同一个库只能保存一个版本的代码。
+				
+				查看GOPATH目录：
+				go env
+				
+				Go Path代码组织形式:
+				bin：存放编译后生成的二进制可执行文件
+				pkg：存放编译后生成的文件
+				src：存放项目的源代码，可以是你自己写的代码，也可以是你 go get 下载的包
+				将你的包或者别人的包全部放在 $GOPATH/src 目录下进行管理的方式，我们称之为 GOPATH 模式。
+
+			GO vendor 模式的过渡：
+				为了解决 GOPATH 方案下不同项目下无法使用多个版本库的问题，
+				Go v1.5 开始支持 vendor。
+ 
+
+			GO Mod 模式：
+				go module 是Go语言从 1.11 版本之后官方推出的版本管理工具，
+				并且从 Go1.13 版本开始，go module 成为了Go语言默认的依赖管理工具。
+				不需要配置 GOPATH 代码可以放到任意目录
+				1.16 默认开启GO111MODULE  官方推荐使用。
+
+		(3).命令：
 			go mod init			初始化项目依赖，生成go.mod文件
 			go mod download		根据go.mod文件下载依赖
 			go mod tidy			比对项目文件中引入的依赖与go.mod进行比对
@@ -141,7 +180,7 @@ func Exec() {
 			go mod verify		检验一个依赖包是否被篡改过
 			go mod why			解释为什么需要某个依赖
 
-		(3).使用：
+		(4).使用：
 			1️⃣引入包
 				$ mkdir holiday
 				$ cd holiday
